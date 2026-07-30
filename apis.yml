@@ -1,19 +1,52 @@
 aid: lifesite
 name: LifeSite
-description: LifeSite is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  LifeSite is a data protection and digital asset company that helps
+  organizations safeguard sensitive information, simplify compliance, and
+  digitally verify ownership. Its Vault product is an encrypted store for
+  personally identifiable, financial, and health information used by both
+  enterprises and families to organize and collaborate on vital documents.
+  TokenX, its Web3 arm, tokenizes real-world assets — critical minerals, carbon
+  credits, and sports and consumer goods — so provenance and ownership can be
+  authenticated without blockchain expertise. A Wellness product covers health,
+  testing, and vaccination tracking for enterprises and events, and a Platform
+  offering exposes LifeSite's building blocks and APIs for partners building
+  tailored data-management applications. LifeSite is sales-led: the Platform
+  APIs are described publicly but no developer portal, API reference, or
+  specification is published, and access is arranged through a demo request.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.lifesite.co/wp-content/uploads/2023/02/cropped-lifesite-logo_512x512-192x192.png
 url: https://raw.githubusercontent.com/api-evangelist/lifesite/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment-pass-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Data Protection
+- Document Management
+- Digital Vault
+- Identity
+- Tokenization
+- Web3
+- Compliance
+- HealthTech
+- FinTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,40 @@ maintainers:
 common:
 - type: Website
   url: https://lifesite.co
+- type: Blog
+  url: https://www.lifesite.co/blog/
+- type: BlogRSS
+  url: https://www.lifesite.co/blog/feed/
+- type: Support
+  url: https://support.lifesite.co/
+- type: SignUp
+  url: https://www.lifesitevault.com
+- type: TermsOfService
+  url: https://www.lifesite.co/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.lifesite.co/privacy-policy/
+- type: ChangeLog
+  url: https://www.lifesite.co/blog/category/release-notes/
+- type: ChangeLog
+  url: changelog/lifesite-changelog.yml
+- type: LLMsTxt
+  name: LifeSite llms.txt
+  url: llms/lifesite-llms.txt
+- type: LLMsTxt
+  name: TokenX llms.txt
+  url: llms/lifesite-tokenx-llms.txt
+- type: WellKnown
+  url: well-known/lifesite-well-known.yml
+- type: SecurityTxt
+  url: well-known/lifesite-security.txt
+- type: VulnerabilityDisclosure
+  url: security/lifesite-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.lifesitevault.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/lifesite-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
