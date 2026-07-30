@@ -1,0 +1,41 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.lifesitevault.com/.well-known/security.txt
+notes: >-
+  LifeSite publishes no public API host. Probed the marketing host
+  (www.lifesite.co) and the Vault application host (www.lifesitevault.com).
+  www.lifesitevault.com is an Angular single-page app that returns HTTP 200 with
+  the SPA HTML shell for unknown paths, so only responses returning genuine
+  document content are recorded as hits here; /.well-known/openid-configuration
+  returned the SPA shell and is recorded as a soft-404, not a discovery document.
+hosts:
+- host: https://www.lifesitevault.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: lifesite-security.txt
+    standard: RFC 9116
+  - path: /.well-known/openid-configuration
+    status: 200
+    soft_404: true
+    note: returned the SPA HTML shell, not an OIDC discovery document
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    soft_404: true
+    note: returned the SPA HTML shell
+- host: https://www.lifesite.co
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://www.tokenx.is
+  documents:
+  - path: /.well-known/security.txt
+    status: 404

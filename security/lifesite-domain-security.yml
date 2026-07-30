@@ -1,0 +1,81 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: lifesite.co
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 15 20:12:19 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: www.lifesitevault.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 14 08:59:33 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+  hsts_include_subdomains: true
+  hsts_preload: true
+- host: www.tokenx.is
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 24 11:00:21 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+  hsts_include_subdomains: true
+  hsts_preload: true
+domains:
+- domain: lifesite.co
+  dnssec: true
+  caa:
+  - 0 issuewild "comodoca.com"
+  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
+  - 0 issuewild "letsencrypt.org"
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
+  - 0 issuewild "sectigo.com"
+  - 0 issuewild "ssl.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
+- domain: lifesitevault.com
+  dnssec: false
+  caa:
+  - 0 issue "amazon.com"
+  - 0 issue "comodoca.com"
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "sectigo.com"
+  - 0 issue "ssl.com"
+  - 0 issuewild "amazon.com"
+  - 0 issuewild "comodoca.com"
+  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
+  - 0 issuewild "letsencrypt.org"
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
+  - 0 issuewild "sectigo.com"
+  - 0 issuewild "ssl.com"
+  - 0 iodef "mailto:devops@lifesite.co"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+- domain: tokenx.is
+  dnssec: false
+  caa:
+  - 0 issue "amazon.com"
+  - 0 issue "comodoca.com"
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "sectigo.com"
+  - 0 issue "ssl.com"
+  - 0 issuewild "amazon.com"
+  - 0 issuewild "comodoca.com"
+  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
+  - 0 issuewild "letsencrypt.org"
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
+  - 0 issuewild "sectigo.com"
+  - 0 issuewild "ssl.com"
+  - 0 iodef "mailto:devops@tokenx.is"
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine

@@ -1,0 +1,57 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.lifesite.co/blog/category/release-notes/
+docs: https://www.lifesite.co/blog/category/release-notes/
+scope: product
+notes: >-
+  LifeSite publishes no API changelog. The only dated release surface is the
+  "Release Notes" category on the company blog, which covers the LifeSite Vault
+  consumer/advisor product rather than an API contract. The archive is stale —
+  the last true release note is from 2016, with a 2020 product announcement
+  filed under the same category. Recorded verbatim as the provider's published
+  release surface; it is not a versioned API changelog.
+versioning:
+  scheme: product-semver
+  applies_to: LifeSite Vault / LifeSite Vault Mobile / LifeSite Pro
+  api_versioning: unknown
+current_version: null
+entries:
+- version: Vault Mobile 2.2
+  date: '2016-10-31'
+  title: LifeSite Vault Mobile 2.2 – Introducing Short Form Video
+  url: https://www.lifesite.co/blog/2016/10/31/lifesite-vault-mobile-2-2/
+  breaking: false
+- version: Pro 1.0
+  date: '2016-10-26'
+  title: LifeSite Pro 1.0 – Enhance your client engagement
+  url: https://www.lifesite.co/blog/2016/10/26/lifesite-pro-1-0/
+  breaking: false
+- version: Vault 2.3
+  date: '2016-10-26'
+  title: LifeSite Vault 2.3 – Secure Messaging
+  url: https://www.lifesite.co/blog/2016/10/26/lifesite-vault-2-3/
+  breaking: false
+- version: Vault Mobile 2.1
+  date: '2016-09-14'
+  title: LifeSite Vault Mobile 2.1 – Turn your Smartphone into a Mobile Document Scanner
+  url: https://www.lifesite.co/blog/2016/09/14/lifesite-vault-mobile-2-1/
+  breaking: false
+- version: Vault Mobile 2.0
+  date: '2016-05-17'
+  title: LifeSite Vault Mobile 2.0 – Access, Upload, and Collaborate from your phone
+  url: https://www.lifesite.co/blog/2016/05/17/lifesite-vault-mobile-2-0-collaborate-on-your-phone/
+  breaking: false
+- version: Vault 2.0
+  date: '2016-05-01'
+  title: LifeSite Vault 2.0 – Announcing LifeSite Vault Plus
+  url: https://www.lifesite.co/blog/2016/05/01/lifesite-vault-2-0-announcing-lifesite-vault-plus/
+  breaking: false
+- version: Vault 1.1
+  date: '2016-02-08'
+  title: LifeSite Vault 1.1 – Drag, Drop, Search, and More!
+  url: https://www.lifesite.co/blog/2016/02/08/february-release-items/
+  breaking: false
+related_announcements:
+- date: '2020-06-23'
+  title: Introducing Estate Plan Navigator
+  url: https://www.lifesite.co/blog/2020/06/23/estate-plan-navigator/
