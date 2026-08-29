@@ -14,6 +14,17 @@ description: >-
   tailored data-management applications. LifeSite is sales-led: the Platform
   APIs are described publicly but no developer portal, API reference, or
   specification is published, and access is arranged through a demo request.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
