@@ -50,7 +50,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Data Protection
-- Document-Management
+- Document Management
 - Digital Vault
 - Identity
 - Tokenization
@@ -69,6 +69,7 @@ tags_raw:
 - Compliance
 - HealthTech
 - FinTech
+- Document-Management
 apis: []
 maintainers:
 - FN: Kin Lane
