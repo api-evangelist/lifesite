@@ -64,28 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LifeSite is a data protection and digital asset company that helps organizations safeguard sensitive information, simplify compliance, and digitally verify ownership. Its **Vault** product is an encrypted store for personally identifiable, financial, and health information used by both enterprises and families. **TokenX** tokenizes real-world assets — critical minerals, carbon credits, sports and consumer goods — so provenance and ownership can be authenticated without blockchain expertise. A **Wellness** product covers health, testing, and vaccination tracking, and a **Platform** offering exposes LifeSite's building blocks and APIs for partners.
+LifeSite is a data protection and digital asset company that helps organizations safeguard sensitive information, simplify compliance, and digitally verify ownership. Its Vault product is an encrypted store for personally identifiable, financial, and health information used by both enterprises and families to organize and collaborate on vital documents. TokenX, its Web3 arm, tokenizes real-world assets — critical minerals, carbon credits, and sports and consumer goods — so provenance and ownership can be authenticated without blockchain expertise. A Wellness product covers health, testing, and vaccination tracking for enterprises and events, and a Platform offering exposes LifeSite's building blocks and APIs for partners building tailored data-management applications. LifeSite is sales-led: the Platform APIs are described publicly but no developer portal, API reference, or specification is published, and access is arranged through a demo request.
 
-- Website: https://lifesite.co
-- Vault: https://www.lifesitevault.com
-- TokenX: https://www.tokenx.is
-- Support: https://support.lifesite.co/
-- Blog: https://www.lifesite.co/blog/
+**Areas:** Company · Data Protection · Document Management · Digital Vault · Identity · Tokenization · Web3 · Compliance · Health Tech · Fintech
 
-Backed by: 500-global
+## LifeSite on APIs.io
 
-## API surface
+Everything profiled for LifeSite is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lifesite/](https://apis.io/providers/lifesite/)** — or go straight to one of the APIs or properties below.
 
-LifeSite is **sales-led**. The Platform page describes API solutions, but as of this enrichment pass there is **no public developer portal, API reference, OpenAPI/AsyncAPI specification, SDK, CLI, or sandbox** — access is arranged through a demo request. No API host (`api.lifesite.co`), docs host, or developer subdomain resolves.
+### Published properties
 
-## Artifacts in this repo
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Artifact | Path | Method |
-|---|---|---|
-| llms.txt (LifeSite) | `llms/lifesite-llms.txt` | searched |
-| llms.txt (TokenX) | `llms/lifesite-tokenx-llms.txt` | searched |
-| security.txt (RFC 9116) | `well-known/lifesite-security.txt` | searched |
-| Well-known index | `well-known/lifesite-well-known.yml` | searched |
-| Vulnerability disclosure | `security/lifesite-vulnerability-disclosure.yml` | searched |
-| Domain security | `security/lifesite-domain-security.yml` | probed |
-| Changelog (product release notes) | `changelog/lifesite-changelog.yml` | searched |
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lifesite Domain Security](https://apis.io/security/lifesite/lifesite-domain-security/)
+- [Lifesite Vulnerability Disclosure](https://apis.io/security/lifesite/lifesite-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lifesite.co)
+- [Sign up](https://www.lifesitevault.com)
+- [Support](https://support.lifesite.co/)
+- [Changelog](https://www.lifesite.co/blog/category/release-notes/)
+- [Blog](https://www.lifesite.co/blog/)
+- [Security](https://www.lifesitevault.com/.well-known/security.txt)
+- [Terms of service](https://www.lifesite.co/terms-of-service/)
+- [Privacy policy](https://www.lifesite.co/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 14.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lifesite/](https://apis.io/providers/lifesite/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LifeSite: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lifesite/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
